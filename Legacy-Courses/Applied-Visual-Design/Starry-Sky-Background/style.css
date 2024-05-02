@@ -1,0 +1,128 @@
+body{
+    position: absolute;
+}
+.star-container {
+    position: absolute;
+    height: 50vh;
+    width: 100vw;
+    margin-top: 0;
+}
+.stars {
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    /* animation-duration: 10s; */
+}
+
+.star-1 {
+    margin-top: 2%;
+    margin-left: 60%;
+    animation-name: twinkle-1;
+    animation-duration: 1.5s;
+}
+
+.star-2 {
+    margin-top: 5%;
+    margin-left: 25%;
+    animation-name: twinkle-2;
+    animation-duration: 1.5s;
+}
+
+.star-3 {
+    margin-top: 5%;
+    margin-left: 48%;
+    animation-name: twinkle-3;
+    animation-duration: 1.5s;
+}
+.star-4 {
+    margin-top: 6%;
+    margin-left: 10%;
+    animation-name: twinkle-4;
+    animation-duration: 1.5s;
+}
+.star-5 {
+    margin-top: 2%;
+    margin-left: 80%;
+    animation-name: twinkle-5;
+    animation-duration: 1.5s;
+}
+.star-6 {
+    margin-top: 3%;
+    margin-left: 18%;
+    animation-name: twinkle-6;
+    animation-duration: 1.5s;
+}
+.star-7 {
+    margin-top: 2%;
+    margin-left: 60%;
+    animation-name: twinkle-7;
+    animation-duration: 1.5s;
+}
+.star-8 {
+    margin-top: 2%;
+    margin-left: 90%;
+    animation-name: twinkle-8;
+    animation-duration: 1.5s;
+}
+
+@keyframes twinkle-1 {
+    5% {
+        transform: scale(0.9);
+        opacity: 0.5;
+    }
+}
+@keyframes twinkle-2 {
+    20% {
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+}
+@keyframes twinkle-3 {
+    30% {
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+}
+@keyframes twinkle-4 {
+    40% {
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+}
+@keyframes twinkle-5 {
+    60% {
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+}
+@keyframes twinkle-6 {
+    70% {
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+}
+@keyframes twinkle-7 {
+    90% {
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+}
+@keyframes twinkle-8 {
+    80% {
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+}
+
+#back {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(black, #000099, #66c2ff ) ;
+}
